@@ -1,0 +1,10 @@
+.currentWeatherDiv {
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding: 15px;
+  margin-bottom: 40px;
+}
+

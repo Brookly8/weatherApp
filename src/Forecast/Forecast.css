@@ -1,0 +1,11 @@
+.forcastHours {
+  display: flex;
+  overflow: scroll;
+  gap: 25px;
+  align-items: end;
+  font-size: 22px;
+}
+
+.hourInfo p {
+  width: 150px;
+}

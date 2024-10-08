@@ -1,0 +1,20 @@
+.locationSearch {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-bottom: 20px;
+  background-color: #516794;
+  padding: 20px;
+}
+
+.locationSearch button {
+  width: 15%;
+  height: 30px;
+}
+
+.locationSearch input {
+  width: 39%;
+  height: 30px;
+}
