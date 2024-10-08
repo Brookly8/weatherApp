@@ -21,14 +21,14 @@ function App() {
   useEffect(() => {
     setLocation();
   }, []);
-  if (weather.length === 0) {
-    let apiCurrent = `http://api.weatherapi.com/v1/forecast.json?key=5d7a30752e994d888ac151004240510&q=${currentLocation[0]} ${currentLocation[1]}&days=1&aqi=no&alerts=no`;
-    let forecarsAPI = `http://api.weatherapi.com/v1/forecast.json?key=5d7a30752e994d888ac151004240510&q=${currentLocation[0]} ${currentLocation[1]}&days=1&aqi=no&alerts=no`;
-    let sevenDaysAPI = `http://api.weatherapi.com/v1/forecast.json?key=5d7a30752e994d888ac151004240510&q=${currentLocation[0]} ${currentLocation[1]}&days=7&aqi=no&alerts=no`;
-    fetch(apiCurrent, setWeather);
-    fetch(forecarsAPI, setForcast);
-    fetch(sevenDaysAPI, setForcastDays);
-  }
+  // if (weather.length === 0) {
+  //   let apiCurrent = `http://api.weatherapi.com/v1/forecast.json?key=5d7a30752e994d888ac151004240510&q=${currentLocation[0]} ${currentLocation[1]}&days=1&aqi=no&alerts=no`;
+  //   let forecarsAPI = `http://api.weatherapi.com/v1/forecast.json?key=5d7a30752e994d888ac151004240510&q=${currentLocation[0]} ${currentLocation[1]}&days=1&aqi=no&alerts=no`;
+  //   let sevenDaysAPI = `http://api.weatherapi.com/v1/forecast.json?key=5d7a30752e994d888ac151004240510&q=${currentLocation[0]} ${currentLocation[1]}&days=7&aqi=no&alerts=no`;
+  //   fetch(apiCurrent, setWeather);
+  //   fetch(forecarsAPI, setForcast);
+  //   fetch(sevenDaysAPI, setForcastDays);
+  // }
 
   const onClickHendler = () => {
     let apiCurrent = `http://api.weatherapi.com/v1/forecast.json?key=5d7a30752e994d888ac151004240510&q=${input}&days=1&aqi=no&alerts=no`;
