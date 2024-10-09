@@ -8,7 +8,7 @@ export const backgroundChanger = (weather) => {
   } else if (weather.current?.condition.text === "Sunny") {
     return "weatherApp/public/assets/Sunny.jpeg";
   } else if (weather.current?.condition.text === "Clear") {
-    return "weatherApp/public/assets/clear.jpg";
+    return "https://s7d2.scene7.com/is/image/TWCNews/1031_nc_sunny_weather_2-1";
   } else if (weather.current?.condition.text === "Moderate rain") {
     return "weatherApp/public/assets/moderateRain.webp";
   } else if (weather.current?.condition.text === "Torrential rain shower") {
